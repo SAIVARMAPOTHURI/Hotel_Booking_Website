@@ -1,0 +1,119 @@
+body {
+  background-image: linear-gradient(to top right,skyblue,dodgerblue);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  width: 25%;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(13, 3, 3, 0.7);
+  position: fixed;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid dodgerblue;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 50%;
+  padding: 5px;
+  background-image: linear-gradient(to right,skyblue,dodgerblue);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+border: 1px solid black;
+box-shadow: 0 0 2px rgba(13, 3, 3, 0.7);
+
+}
+.p{
+  padding:12px;
+  border-radius:  12px;
+}
+
+.login-container img{
+  height: 100px;
+  width: 220px;
+}
+
+.register-container {
+  width: 45%;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(13, 3, 3, 0.7); 
+  position: fixed;
+}
+
+.register-container img{
+  height: 100px;
+  width: 220px;
+}
+
+.register-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.register-group1 {
+  margin-bottom: 15px;
+}
+
+.register-group1 label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.register-group1 input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid dodgerblue;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.register-group2{
+  width: 49%;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.register-group3{
+  width: 50%;
+  float: right;
+  margin-bottom: 10px;
+}
+
+.gender{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="project.css">
+<head>
+    <title>BOOKEDINN</title>
+    <script src="samplejs.js"></script>
+</head>
+<div class="header">
+    <div class="header1">
+        <img src="logo1.png">
+    </div>
+    <div class="header2">
+        <input type="search" class="header21" placeholder="Search hotels">
+        <input type="button" class="header22" value="Search">
+    </div>
+    <div class="header3">
+        <table>
+            <td><a href="index.html" >Home</a></td>
+            <td><a onclick="hotel()" >Hotels</a></td>
+            <td><a onclick="city()" type="button">City</a></td>
+            <td><a onclick="history()">Histroy</a></td>
+            <td><a href="loginpage.html"> <input type="button" class="header31"  value="Sign In"></a></td>
+        </table>
+    </div>
+</div>
+<div style="height: 20vh;"></div>
+
+<body >
+    <br><br>
+    <div class="box1" id="box1">
+        <div class="cat1" id="box12" onclick="openanantapur()">Anantapur</div>
+        <div class="cat1" id="box12" onclick="openeluru()">Eluru</div>
+        <div class="cat1" id="box12" onclick="openguntur()">Guntur</div>
+        <div class="cat1" id="box12" onclick="openkadapa()">Kadapa</div>
+        <div class="cat1" id="box12" onclick="openkakinada()">Kakinada</div>
+        <div class="cat1" id="box12" onclick="openkurnool()">Kurnool</div>
+        <div class="cat1" id="box12" onclick="opennellore()">Nellore</div>
+        <div class="cat1" id="box12" onclick="opensrikakulam()">Srikakulam</div>
+        <div class="cat1" id="box12" onclick="opentirupati()">Tirupati</div>
+        <div class="cat1" id="box12" onclick="openongole()">Ongole</div>
+        <div class="cat1" id="box12" onclick="openvijayawada()">Vijayawada</div>
+        <div class="cat1" id="box12" onclick="openvisakhapatnam()">Visakhapatnam</div> 
+        <div class="cat1" id="box12" onclick="openvizayanagaram()">Vizayanagaram</div>
+    </div>
+<div style="width: 65%;float: left;" id="content" >
+    <h1 style="font-size: 100px;font-family:Georgia, 'Times New Roman', Times, serif;">ENJOY AN AMAZING EXPERIENCE</h1>
+</div>
+<div class="dates">
+    <form action="#">
+        <div style="width: 100%;margin-bottom: 30px;">
+            <div><label for="CIDate">Cheack-In: </label></div>
+            <div><input type="date" name="CIDate" required></div>
+        </div>
+        <div style="width: 100%;margin-bottom: 30px;">
+            <div><label for="CODate">Cheack-Out: </label></div>
+            <div><input type="date" name="CODate" required></div>
+        </div>
+        <div><input type="submit" value="Set" class="set"></div>
+    </form>
+</div>
+</body>

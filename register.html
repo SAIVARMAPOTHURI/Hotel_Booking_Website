@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <title>Register</title>
+    <link rel="stylesheet" href="registration.css">
+    <body>
+        <div class="register-container">
+           <div><center><img src="logo1.png"></center></div> 
+            <h2></h2>
+            <form action="login.html">
+                <div class="register-group1">
+                    <div><label for="username">Name:</label></div>
+                    <div> <input type="text" id="username" name="username" placeholder=" Enter your full name" required></div>
+                </div>
+                <div class="register-group1">
+                    <div> <label for="password">Email:</label></div>
+                    <div> <input type="email" placeholder="Enter your Email" required></div>
+                </div>
+                <div class="register-group1">
+                    <div class="register-group2">
+                        <div><label for="phone">Phone No. :</label></div>
+                        <div><input type="number" name="phone" required></div>
+                    </div>
+                    <div class="register-group3">
+                        <div><label for="DOB">Date of Birth: </label></div>
+                        <div><input type="date" name="DOB" required></div>
+                    </div>
+                </div>
+                <label>Gender: </label>
+                <div class="gender">
+                    <input type="radio" name="Gender" checked />Male
+                    <input type="radio" name="Gender">Female
+                    <input type="radio" name="Gender">Prefer not to say
+                </div>
+            
+                <div class="register-group1">
+                    <div class="register-group2">
+                        <div><label for="Country">Country</label></div>
+                        <div><input type="text" name="Country" required></div>
+                    </div>
+                    <div class="register-group3">
+                        <div><label for="state">State: </label></div>
+                        <div><input type="text" name="state" required></div>
+                    </div>
+                </div>
+                <div class="register-group1">
+                    <div class="register-group2">
+                        <div><label for="city">City: </label></div>
+                        <div><input type="text" name="city" required></div>
+                    </div>
+                    <div class="register-group3">
+                        <div><label for="pincode">Pincode: </label></div>
+                        <div><input type="number" name="pincode" required></div>
+                    </div>
+                </div>
+                <div class="register-group1">
+                    <div><label for="address">Address: </label></div>
+                    <div><input type="text" name="address"></div>
+                </div>
+                <center>
+                    <div><button type="submit" class="p">Next→</button></div>
+                </center>
+            </form>
+        </div>
+    </body>
+</html>
