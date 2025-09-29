@@ -26,8 +26,7 @@ For a smoother workflow:
 1. Clone the repo:  
    ```bash
    git clone https://github.com/SAIVARMAPOTHURI/Hotel_Booking_Website
-
-cd Hotel_Booking_Website
-open index.html     # macOS
-start index.html    # Windows
+   cd Hotel_Booking_Website
+   open index.html     # macOS
+   start index.html    # Windows
 # Or just double-click index.html
